@@ -1,0 +1,24 @@
+BLOCKED: full-slot Modbus writes not qualified; MODBUS_WRITES=0
+BLOCKED: full-slot Modbus execution not commissioned; MODBUS_WRITES=0
+BLOCKED: full-slot Modbus writes not qualified; MODBUS_WRITES=0
+BLOCKED: full-slot Modbus writes not qualified; MODBUS_WRITES=0
+BLOCKED: RC10 has no full-slot actuator; MODBUS_WRITES=0
+{"modbus_writes": 0, "preflight": {"reason": "OUTSIDE_HORIZON", "state": "HOLD"}, "readiness": "HOLD_NO_QUALIFIED_SLOT"}
+BLOCKED: RC11 is simulation-only; NO LIVE ACTUATOR; MODBUS_WRITES=0
+BLOCKED: RC12 requires injected simulation adapters; LIVE MODBUS_WRITES=0
+BLOCKED: RC13 review tool cannot actuate; MODBUS_WRITES=0
+RC14_ACTUATOR_CONTRACT_ONLY: LIVE_EXECUTION_DISABLED MODBUS_WRITES=0
+RC16 COMMISSIONING TRANSPORT STAGED: LIVE_EXECUTION_DISABLED MODBUS_WRITES=0
+RC17 REAL TRANSPORT STAGED: LIVE EXECUTION DISABLED; MODBUS_WRITES=0
+RC19_BLOCKED: NO LIVE EXECUTION ENTRY POINT; MODBUS_WRITES=0
+RC20_STAGED_ONLY: NO OPERATOR LIVE ENTRYPOINT; MODBUS_WRITES=0
+RC21_STAGED_ONLY: NO OPERATOR LIVE ENTRYPOINT; MODBUS_WRITES=0
+RC22_STAGED_ONLY: INDEPENDENT_RECOVERY_NOT_COMMISSIONED; MODBUS_WRITES=0
+BLOCKED: RC5 production full-slot actuation not commissioned; MODBUS_WRITES=0
+BLOCKED: RC6 has no production full-slot actuator; MODBUS_WRITES=0
+BLOCKED: SOC acquisition cannot actuate; MODBUS_WRITES=0
+BLOCKED: RC9 cannot actuate; MODBUS_WRITES=0
+----------------------------------------------------------------------
+Ran 277 tests in 2.871s
+
+OK

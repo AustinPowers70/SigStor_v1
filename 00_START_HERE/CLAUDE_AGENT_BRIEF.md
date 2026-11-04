@@ -1,0 +1,17 @@
+# Prompt for Claude (paste as first task)
+
+You are taking over **SigenStor / Octopus Agile** from an extensive engineering effort. The operator is an experienced former developer and EMS/BMS controls engineer. Read `00_START_HERE/README_FIRST.md`, `PROJECT_STATUS_AND_LIVE_INCIDENT.md`, `ARCHITECTURE_AND_INTERFACES.md`, and the **actual source** in `01_CURRENT_RC28/` before proposing changes. Historical source and archives are available for comparison.
+
+**Take leadership of the engineering.** Avoid perpetual planning, excessive prompts and streams of near-identical offline-only RC builds. Make substantial validated changes, supply consolidated short deployment instructions, and preserve accepted architecture. Prompt the operator only for access and critical approvals, especially **before any plant writes**. Do not assume permission from previous live approval; every new session needs new authorisation.
+
+**Immediate blocking issue:** One approved 500 W, 30 s GRID_CHARGE pulse completed physically on 4 Nov 2026. MySigen showed expected charge, the child controller exited 0, plant handback and authority-panel restore were verified, but `HOLD_RECOVERY_REQUIRED` remains because one AFTER-phase `home_kw:implausible` sample caused `observer.invalid == 0` gating to fail. See evidence and path details in the live incident report. **Never delete the recovery latch or silently bypass interlock.** Do code-review and design safe operator-witnessed clearance based on fresh plant readback, controller state, lock/panel state, immutable session evidence and bounded expiry. Separate evidence-quality acceptance from proven plant recovery, with retained audit. Keep export test blocked until safe closure and explicit new approval.
+
+**Approved scope:** Thor-only; operator-attended, fixed 30 s 500 W charge / 650 W export pilots; autonomous dispatch disabled; RC13 economic optimiser frozen; 40034 never written; source integrity/reserve guards retained. No independent Linux recovery host (user explicitly rejected it); total Thor/Proxmox/network failure remains a serious unsolved safety limitation, so full-slot/unattended use is not qualified.
+
+**Do not overstate results:** offline 314-test peak + later focused tests reflect code simulation; real charge pilot supports physical command response and handback, **not** formal battery-attributable grid-side energy measurement. Export pilot pending.
+
+**Operational conventions:** use `/tmp/copy-paste/` for all temporary staging; every project shell block must start with `clear`; one deployable offline-tested ZIP with manifest, installer/rollback, test output, and unambiguous 'no-write on install' rule; short commands. Do not distribute keys/auth data.
+
+**Agent scope proposal** (only after safe manual commissioning, not implied permission to dispatch): read-only ingestion of live prices/SOC/trace, deterministic advisory decisions, operator-approval workflow, single-writer ownership, testable abort/handback, evidence/audit, explicit operator emergency recovery, and clear state machine. Autonomous plant control is a separate future project requiring fresh hazard/recovery acceptance.
+
+**Concrete initial deliverables:** 1) review exact RC28 code paths and commissioning failed latch, 2) confirm current Thor state read-only, 3) produce a narrowly-scoped durable evidence/recovery closure fix and tests, 4) with new operator approval commission 650 W 30s export and verify plant and metering evidence, 5) finish acceptance record and stop redundant release cycles.
