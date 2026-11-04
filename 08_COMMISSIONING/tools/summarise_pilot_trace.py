@@ -8,7 +8,6 @@ lifecycle, and for EXPORT, which register-semantics hypothesis the data favours.
 Conventions: battery +charge/-discharge; grid +import/-export.
 This is correlation evidence only, NOT battery-attributable grid-side metering.
 """
-
 import json,statistics as st,sys
 
 def main(path):

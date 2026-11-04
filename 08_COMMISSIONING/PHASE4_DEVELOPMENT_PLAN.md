@@ -33,7 +33,7 @@ The dominant unresolved hazard is **L1: Remote EMS left active after Thor is los
 ## WS0: Repository baseline and live-source capture (fixes L9)
 1. Run `06_THOR_COLLECTION/collect_thor_source_readonly.sh` on Thor. Commit `/opt/sigenstor/scripts` (excluding secrets, databases and traces) as `08_THOR_LIVE_SOURCE/`, along with `systemctl list-timers` and unit files.
 2. Diff the live tree against the repo, and identify:
-   - the Octopus sync, the advisory planner, nightly optimiser and RC13 producer;
+   - the Octopus sync, the advisory planner, the nightly optimiser and the RC13 producer;
    - **every program that can write to Modbus**, which is input to L2.
 3. Secrets hygiene: keys stay in a root-only file on Thor. Add a pre-commit secret scan. Because the repo is public, also scan the history.
 4. Record a deployment manifest: the installed tree, active units and timer modes.

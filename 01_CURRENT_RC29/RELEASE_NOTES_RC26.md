@@ -1,0 +1,2 @@
+# RC26 — Real power evidence capture
+RC25 accepted on Thor with 314/314 offline tests. RC26 adds a real FC04 75-second sample collector and an evidence assessor, uses the previous validated decoding library, and does not change or launch any live Modbus actuation code. Five targeted tests replace a pointless repeat of the 314-test suite. Controlled physical pilot approval remains a separate operator action. No independent Thor-loss recovery claimed.
