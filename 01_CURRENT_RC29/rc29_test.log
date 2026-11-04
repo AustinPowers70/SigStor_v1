@@ -1,0 +1,451 @@
+test_atomic_output (test_integrated_rc2.IntegratedTests.test_atomic_output) ... ok
+test_authority_fail_closed (test_integrated_rc2.IntegratedTests.test_authority_fail_closed) ... ok
+test_charge_plan_read_only (test_integrated_rc2.IntegratedTests.test_charge_plan_read_only) ... ok
+test_conflicting_commands_rejected (test_integrated_rc2.IntegratedTests.test_conflicting_commands_rejected) ... ok
+test_execution_entrypoint_blocked (test_integrated_rc2.IntegratedTests.test_execution_entrypoint_blocked) ... BLOCKED: full-slot Modbus writes not qualified; MODBUS_WRITES=0
+ok
+test_export_plan_read_only (test_integrated_rc2.IntegratedTests.test_export_plan_read_only) ... ok
+test_incapable_energy_marked (test_integrated_rc2.IntegratedTests.test_incapable_energy_marked) ... ok
+test_integrated_execution_blocked (test_integrated_rc2.IntegratedTests.test_integrated_execution_blocked) ... BLOCKED: full-slot Modbus execution not commissioned; MODBUS_WRITES=0
+ok
+test_integrated_match (test_integrated_rc2.IntegratedTests.test_integrated_match) ... ok
+test_integrated_mismatch (test_integrated_rc2.IntegratedTests.test_integrated_mismatch) ... ok
+test_missing_r5_fail_closed (test_integrated_rc2.IntegratedTests.test_missing_r5_fail_closed) ... ok
+test_no_40034_write_in_source (test_integrated_rc2.IntegratedTests.test_no_40034_write_in_source) ... ok
+test_outside_window (test_integrated_rc2.IntegratedTests.test_outside_window) ... ok
+test_r10_coverage_gap (test_integrated_rc2.IntegratedTests.test_r10_coverage_gap) ... ok
+test_r10_zero_actual_samples_not_measured (test_integrated_rc2.IntegratedTests.test_r10_zero_actual_samples_not_measured) ... ok
+test_r6_invalid_grid_side_power (test_integrated_rc2.IntegratedTests.test_r6_invalid_grid_side_power) ... ok
+test_reserve_mismatch_rejected (test_integrated_rc2.IntegratedTests.test_reserve_mismatch_rejected) ... ok
+test_stale_snapshot_rejected (test_integrated_rc2.IntegratedTests.test_stale_snapshot_rejected) ... ok
+test_authority_fail_closed (test_phase3b_rc1.OfflineTests.test_authority_fail_closed) ... ok
+test_charge_plan_read_only (test_phase3b_rc1.OfflineTests.test_charge_plan_read_only) ... ok
+test_conflicting_commands_rejected (test_phase3b_rc1.OfflineTests.test_conflicting_commands_rejected) ... ok
+test_execution_entrypoint_blocked (test_phase3b_rc1.OfflineTests.test_execution_entrypoint_blocked) ... BLOCKED: full-slot Modbus writes not qualified; MODBUS_WRITES=0
+ok
+test_export_plan_read_only (test_phase3b_rc1.OfflineTests.test_export_plan_read_only) ... ok
+test_incapable_energy_marked (test_phase3b_rc1.OfflineTests.test_incapable_energy_marked) ... ok
+test_no_40034_write_in_source (test_phase3b_rc1.OfflineTests.test_no_40034_write_in_source) ... ok
+test_outside_window (test_phase3b_rc1.OfflineTests.test_outside_window) ... ok
+test_reserve_mismatch_rejected (test_phase3b_rc1.OfflineTests.test_reserve_mismatch_rejected) ... ok
+test_stale_snapshot_rejected (test_phase3b_rc1.OfflineTests.test_stale_snapshot_rejected) ... ok
+test_authority_fail_closed (test_phase3b_rc1.OfflineTests.test_authority_fail_closed) ... ok
+test_charge_plan_read_only (test_phase3b_rc1.OfflineTests.test_charge_plan_read_only) ... ok
+test_conflicting_commands_rejected (test_phase3b_rc1.OfflineTests.test_conflicting_commands_rejected) ... ok
+test_execution_entrypoint_blocked (test_phase3b_rc1.OfflineTests.test_execution_entrypoint_blocked) ... BLOCKED: full-slot Modbus writes not qualified; MODBUS_WRITES=0
+ok
+test_export_plan_read_only (test_phase3b_rc1.OfflineTests.test_export_plan_read_only) ... ok
+test_incapable_energy_marked (test_phase3b_rc1.OfflineTests.test_incapable_energy_marked) ... ok
+test_no_40034_write_in_source (test_phase3b_rc1.OfflineTests.test_no_40034_write_in_source) ... ok
+test_outside_window (test_phase3b_rc1.OfflineTests.test_outside_window) ... ok
+test_reserve_mismatch_rejected (test_phase3b_rc1.OfflineTests.test_reserve_mismatch_rejected) ... ok
+test_stale_snapshot_rejected (test_phase3b_rc1.OfflineTests.test_stale_snapshot_rejected) ... ok
+test_cli_write_block (test_rc10.RC10Tests.test_cli_write_block) ... BLOCKED: RC10 has no full-slot actuator; MODBUS_WRITES=0
+ok
+test_clock_jump (test_rc10.RC10Tests.test_clock_jump) ... ok
+test_gap (test_rc10.RC10Tests.test_gap) ... ok
+test_invalid_plan (test_rc10.RC10Tests.test_invalid_plan) ... ok
+test_invalid_power_abort (test_rc10.RC10Tests.test_invalid_power_abort) ... ok
+test_no_action_main (test_rc10.RC10Tests.test_no_action_main) ... {"modbus_writes": 0, "preflight": {"reason": "OUTSIDE_HORIZON", "state": "HOLD"}, "readiness": "HOLD_NO_QUALIFIED_SLOT"}
+ok
+test_no_actuator_import (test_rc10.RC10Tests.test_no_actuator_import) ... ok
+test_samples_no_writes (test_rc10.RC10Tests.test_samples_no_writes) ... ok
+test_slot_expired (test_rc10.RC10Tests.test_slot_expired) ... ok
+test_soc_guard (test_rc10.RC10Tests.test_soc_guard) ... ok
+test_source_change_abort (test_rc10.RC10Tests.test_source_change_abort) ... ok
+test_changed_qualification (test_rc11.Tests.test_changed_qualification) ... ok
+test_cli_block (test_rc11.Tests.test_cli_block) ... BLOCKED: RC11 is simulation-only; NO LIVE ACTUATOR; MODBUS_WRITES=0
+ok
+test_handback_uncertain_blocks_restart (test_rc11.Tests.test_handback_uncertain_blocks_restart) ... ok
+test_invalid_plan (test_rc11.Tests.test_invalid_plan) ... ok
+test_lock_occupied (test_rc11.Tests.test_lock_occupied) ... ok
+test_no_modbus_import (test_rc11.Tests.test_no_modbus_import) ... ok
+test_real_actuator_rejected (test_rc11.Tests.test_real_actuator_rejected) ... ok
+test_real_lock_rejected (test_rc11.Tests.test_real_lock_rejected) ... ok
+test_real_panel_rejected (test_rc11.Tests.test_real_panel_rejected) ... ok
+test_success (test_rc11.Tests.test_success) ... ok
+test_uncertain_start_still_handback (test_rc11.Tests.test_uncertain_start_still_handback) ... ok
+test_ceiling (test_rc12.Tests.test_ceiling) ... ok
+test_clock_jump (test_rc12.Tests.test_clock_jump) ... ok
+test_handback_unverified_withholds_panel (test_rc12.Tests.test_handback_unverified_withholds_panel) ... ok
+test_invalid_sample (test_rc12.Tests.test_invalid_sample) ... ok
+test_lock_occupied (test_rc12.Tests.test_lock_occupied) ... ok
+test_no_control_interfaces (test_rc12.Tests.test_no_control_interfaces) ... ok
+test_no_live_entry (test_rc12.Tests.test_no_live_entry) ... BLOCKED: RC12 requires injected simulation adapters; LIVE MODBUS_WRITES=0
+ok
+test_real_adapter_rejected (test_rc12.Tests.test_real_adapter_rejected) ... ok
+test_reserve (test_rc12.Tests.test_reserve) ... ok
+test_source_change (test_rc12.Tests.test_source_change) ... ok
+test_stale (test_rc12.Tests.test_stale) ... ok
+test_success (test_rc12.Tests.test_success) ... ok
+test_uncertain_start_handback (test_rc12.Tests.test_uncertain_start_handback) ... ok
+test_blocked_cli (test_rc13.RC13Tests.test_blocked_cli) ... BLOCKED: RC13 review tool cannot actuate; MODBUS_WRITES=0
+ok
+test_boundary (test_rc13.RC13Tests.test_boundary) ... ok
+test_critical (test_rc13.RC13Tests.test_critical) ... ok
+test_gap (test_rc13.RC13Tests.test_gap) ... ok
+test_handback (test_rc13.RC13Tests.test_handback) ... ok
+test_invalid_sample (test_rc13.RC13Tests.test_invalid_sample) ... ok
+test_lock (test_rc13.RC13Tests.test_lock) ... ok
+test_no_auto (test_rc13.RC13Tests.test_no_auto) ... ok
+test_no_write_interface (test_rc13.RC13Tests.test_no_write_interface) ... ok
+test_operator (test_rc13.RC13Tests.test_operator) ... ok
+test_panel (test_rc13.RC13Tests.test_panel) ... ok
+test_pcs_export (test_rc13.RC13Tests.test_pcs_export) ... ok
+test_power (test_rc13.RC13Tests.test_power) ... ok
+test_reserve (test_rc13.RC13Tests.test_reserve) ... ok
+test_review_not_release (test_rc13.RC13Tests.test_review_not_release) ... ok
+test_soc_ceiling (test_rc13.RC13Tests.test_soc_ceiling) ... ok
+test_ambiguous_first_write_needs_handback (test_rc14.Tests.test_ambiguous_first_write_needs_handback) ... ok
+test_cannot_repeat_start (test_rc14.Tests.test_cannot_repeat_start) ... ok
+test_charge_sequence (test_rc14.Tests.test_charge_sequence) ... ok
+test_export_sequence (test_rc14.Tests.test_export_sequence) ... ok
+test_no_40034_writes (test_rc14.Tests.test_no_40034_writes) ... ok
+test_no_direct_live_cli (test_rc14.Tests.test_no_direct_live_cli) ... RC14_ACTUATOR_CONTRACT_ONLY: LIVE_EXECUTION_DISABLED MODBUS_WRITES=0
+ok
+test_partial_handback_continues (test_rc14.Tests.test_partial_handback_continues) ... ok
+test_policy_is_not_live_authorization (test_rc14.Tests.test_policy_is_not_live_authorization) ... ok
+test_rc14_execute_block (test_rc14.Tests.test_rc14_execute_block) ... ok
+test_reject_existing_ems (test_rc14.Tests.test_reject_existing_ems) ... ok
+test_reject_oversize (test_rc14.Tests.test_reject_oversize) ... ok
+test_zero_pcs_required (test_rc14.Tests.test_zero_pcs_required) ... ok
+test_changed_qualification_still_handback (test_rc15.RC15Tests.test_changed_qualification_still_handback) ... ok
+test_charge_full_transaction (test_rc15.RC15Tests.test_charge_full_transaction) ... ok
+test_cli_block (test_rc15.RC15Tests.test_cli_block) ... ok
+test_export_full_transaction (test_rc15.RC15Tests.test_export_full_transaction) ... ok
+test_failed_handback_withholds_panel (test_rc15.RC15Tests.test_failed_handback_withholds_panel) ... ok
+test_invalid_actuator_type (test_rc15.RC15Tests.test_invalid_actuator_type) ... ok
+test_no_real_interface (test_rc15.RC15Tests.test_no_real_interface) ... ok
+test_reject_non_simulated_plant (test_rc15.RC15Tests.test_reject_non_simulated_plant) ... ok
+test_reject_wrong_power (test_rc15.RC15Tests.test_reject_wrong_power) ... ok
+test_uncertain_write_handback (test_rc15.RC15Tests.test_uncertain_write_handback) ... ok
+test_allowlist (test_rc16.Tests.test_allowlist) ... ok
+test_cannot_arbitrary_call (test_rc16.Tests.test_cannot_arbitrary_call) ... ok
+test_charge_and_handback (test_rc16.Tests.test_charge_and_handback) ... ok
+test_close_blocks_writes (test_rc16.Tests.test_close_blocks_writes) ... ok
+test_export_and_handback (test_rc16.Tests.test_export_and_handback) ... ok
+test_no_40034_written (test_rc16.Tests.test_no_40034_written) ... ok
+test_no_live_entry (test_rc16.Tests.test_no_live_entry) ... RC16 COMMISSIONING TRANSPORT STAGED: LIVE_EXECUTION_DISABLED MODBUS_WRITES=0
+ok
+test_reject_live_connection (test_rc16.Tests.test_reject_live_connection) ... ok
+test_u32_allowlist (test_rc16.Tests.test_u32_allowlist) ... ok
+test_uncertain_write_recorded (test_rc16.Tests.test_uncertain_write_recorded) ... ok
+test_audit_required (test_rc17.Tests.test_audit_required) ... ok
+test_cli_disabled (test_rc17.Tests.test_cli_disabled) ... RC17 REAL TRANSPORT STAGED: LIVE EXECUTION DISABLED; MODBUS_WRITES=0
+ok
+test_close_on_read_error (test_rc17.Tests.test_close_on_read_error) ... ok
+test_ems_on_rejected (test_rc17.Tests.test_ems_on_rejected) ... ok
+test_mode_wrong_rejected (test_rc17.Tests.test_mode_wrong_rejected) ... ok
+test_no_direct_start (test_rc17.Tests.test_no_direct_start) ... ok
+test_no_direct_write (test_rc17.Tests.test_no_direct_write) ... ok
+test_no_instantiate (test_rc17.Tests.test_no_instantiate) ... ok
+test_no_simulated (test_rc17.Tests.test_no_simulated) ... ok
+test_pcs_nonzero_rejected (test_rc17.Tests.test_pcs_nonzero_rejected) ... ok
+test_read_allowlist (test_rc17.Tests.test_read_allowlist) ... ok
+test_verified_state (test_rc17.Tests.test_verified_state) ... ok
+test_closed_on_failure (test_rc18.Tests.test_closed_on_failure) ... ok
+test_ems_held (test_rc18.Tests.test_ems_held) ... ok
+test_no_attribution (test_rc18.Tests.test_no_attribution) ... ok
+test_nonzero_pcs (test_rc18.Tests.test_nonzero_pcs) ... ok
+test_source_has_no_write_calls (test_rc18.Tests.test_source_has_no_write_calls) ... ok
+test_verified (test_rc18.Tests.test_verified) ... ok
+test_wrong_mode (test_rc18.Tests.test_wrong_mode) ... ok
+test_zero_writes (test_rc18.Tests.test_zero_writes) ... ok
+test_execute_blocked (test_rc19.HandoffTests.test_execute_blocked) ... RC19_BLOCKED: NO LIVE EXECUTION ENTRY POINT; MODBUS_WRITES=0
+ok
+test_good_plant_does_not_unlock (test_rc19.HandoffTests.test_good_plant_does_not_unlock) ... ok
+test_invalid_source_hold (test_rc19.HandoffTests.test_invalid_source_hold) ... ok
+test_missing_plant (test_rc19.HandoffTests.test_missing_plant) ... ok
+test_naive_rejected (test_rc19.HandoffTests.test_naive_rejected) ... ok
+test_no_auto (test_rc19.HandoffTests.test_no_auto) ... ok
+test_no_grid_side_claim (test_rc19.HandoffTests.test_no_grid_side_claim) ... ok
+test_no_live (test_rc19.HandoffTests.test_no_live) ... ok
+test_no_write_interface (test_rc19.HandoffTests.test_no_write_interface) ... ok
+test_no_writes (test_rc19.HandoffTests.test_no_writes) ... ok
+test_recovery_is_not_self_attested (test_rc19.HandoffTests.test_recovery_is_not_self_attested) ... ok
+test_stale_plant (test_rc19.HandoffTests.test_stale_plant) ... ok
+test_unhanded_plant (test_rc19.HandoffTests.test_unhanded_plant) ... ok
+test_bad_sample_handback (test_rc20.Tests.test_bad_sample_handback) ... ok
+test_charge_ceiling_handback (test_rc20.Tests.test_charge_ceiling_handback) ... ok
+test_cli_blocked (test_rc20.Tests.test_cli_blocked) ... RC20_STAGED_ONLY: NO OPERATOR LIVE ENTRYPOINT; MODBUS_WRITES=0
+ok
+test_expired_no_write (test_rc20.Tests.test_expired_no_write) ... ok
+test_lock_contention_no_write (test_rc20.Tests.test_lock_contention_no_write) ... ok
+test_loss_qualification_handback (test_rc20.Tests.test_loss_qualification_handback) ... ok
+test_no_40034_write_source (test_rc20.Tests.test_no_40034_write_source) ... ok
+test_no_recovery_no_write (test_rc20.Tests.test_no_recovery_no_write) ... ok
+test_recovery_loss_mid_session (test_rc20.Tests.test_recovery_loss_mid_session) ... ok
+test_successful_charge (test_rc20.Tests.test_successful_charge) ... ok
+test_successful_export (test_rc20.Tests.test_successful_export) ... ok
+test_unverified_handback_withholds_panel (test_rc20.Tests.test_unverified_handback_withholds_panel) ... ok
+test_identity_mismatch_refused (test_rc21.Tests.test_identity_mismatch_refused) ... ok
+test_next_session_refused_before_write (test_rc21.Tests.test_next_session_refused_before_write) ... ok
+test_no_live_entry (test_rc21.Tests.test_no_live_entry) ... RC21_STAGED_ONLY: NO OPERATOR LIVE ENTRYPOINT; MODBUS_WRITES=0
+ok
+test_no_plant_in_latch (test_rc21.Tests.test_no_plant_in_latch) ... ok
+test_operator_cannot_clear_without_physical_proof (test_rc21.Tests.test_operator_cannot_clear_without_physical_proof) ... ok
+test_qualification_abort_latches (test_rc21.Tests.test_qualification_abort_latches) ... ok
+test_success_clears_latch (test_rc21.Tests.test_success_clears_latch) ... ok
+test_symlink_marker_refused (test_rc21.Tests.test_symlink_marker_refused) ... ok
+test_uncertain_handback_latches (test_rc21.Tests.test_uncertain_handback_latches) ... ok
+test_verified_manual_recovery_can_clear (test_rc21.Tests.test_verified_manual_recovery_can_clear) ... ok
+test_attested_clear_simulated (test_rc22.Tests.test_attested_clear_simulated) ... ok
+test_existing_session_core_preserved (test_rc22.Tests.test_existing_session_core_preserved) ... ok
+test_external_denied (test_rc22.Tests.test_external_denied) ... ok
+test_future_evidence (test_rc22.Tests.test_future_evidence) ... ok
+test_latch_persists_on_denial (test_rc22.Tests.test_latch_persists_on_denial) ... ok
+test_live_cli_blocked (test_rc22.Tests.test_live_cli_blocked) ... RC22_STAGED_ONLY: INDEPENDENT_RECOVERY_NOT_COMMISSIONED; MODBUS_WRITES=0
+ok
+test_missing_witness (test_rc22.Tests.test_missing_witness) ... ok
+test_no_plant_control_in_attestation (test_rc22.Tests.test_no_plant_control_in_attestation) ... ok
+test_no_verifier (test_rc22.Tests.test_no_verifier) ... ok
+test_operator_denied (test_rc22.Tests.test_operator_denied) ... ok
+test_replay_after_clear (test_rc22.Tests.test_replay_after_clear) ... ok
+test_retired_boolean_clear (test_rc22.Tests.test_retired_boolean_clear) ... ok
+test_stale_evidence (test_rc22.Tests.test_stale_evidence) ... ok
+test_unverified_readbacks (test_rc22.Tests.test_unverified_readbacks) ... ok
+test_wrong_digest (test_rc22.Tests.test_wrong_digest) ... ok
+test_wrong_session (test_rc22.Tests.test_wrong_session) ... ok
+test_audit_before_start (test_rc23.Tests.test_audit_before_start) ... ok
+test_expired_permit (test_rc23.Tests.test_expired_permit) ... ok
+test_false_claims (test_rc23.Tests.test_false_claims) ... ok
+test_lock_denied (test_rc23.Tests.test_lock_denied) ... ok
+test_marker_blocks_second_pilot (test_rc23.Tests.test_marker_blocks_second_pilot) ... ok
+test_missing_operator_ack (test_rc23.Tests.test_missing_operator_ack) ... ok
+test_no_live_cli (test_rc23.Tests.test_no_live_cli) ... RC23_INJECTION_ONLY: NO LIVE OPERATOR CLI; MODBUS_WRITES=0
+ok
+test_no_reserved_register_write (test_rc23.Tests.test_no_reserved_register_write) ... ok
+test_no_unattended_synthetic_expiry (test_rc23.Tests.test_no_unattended_synthetic_expiry) ... ok
+test_no_unbounded_duration (test_rc23.Tests.test_no_unbounded_duration) ... ok
+test_preflight_presence_denied (test_rc23.Tests.test_preflight_presence_denied) ... ok
+test_preflight_qualification_denied (test_rc23.Tests.test_preflight_qualification_denied) ... ok
+test_presence_loss_handback (test_rc23.Tests.test_presence_loss_handback) ... ok
+test_qualification_lost (test_rc23.Tests.test_qualification_lost) ... ok
+test_reserve (test_rc23.Tests.test_reserve) ... ok
+test_simulated_charge (test_rc23.Tests.test_simulated_charge) ... ok
+test_simulated_export (test_rc23.Tests.test_simulated_export) ... ok
+test_soc_ceiling (test_rc23.Tests.test_soc_ceiling) ... ok
+test_stale_sample (test_rc23.Tests.test_stale_sample) ... ok
+test_unverified_handback_retains_latch (test_rc23.Tests.test_unverified_handback_retains_latch) ... ok
+test_existing_latch_prevents_panel_stop (test_rc24.RC24Tests.test_existing_latch_prevents_panel_stop) ... ok
+test_failed_isolation_and_restore_retains_latch (test_rc24.RC24Tests.test_failed_isolation_and_restore_retains_latch) ... ok
+test_failed_isolation_verification_latched (test_rc24.RC24Tests.test_failed_isolation_verification_latched) ... ok
+test_no_side_effect_before_baseline_authority_check (test_rc24.RC24Tests.test_no_side_effect_before_baseline_authority_check) ... ok
+test_partial_panel_stop_latched_and_restored (test_rc24.RC24Tests.test_partial_panel_stop_latched_and_restored) ... ok
+test_abort_is_hold (test_rc25.RC25Tests.test_abort_is_hold) ... ok
+test_invalid_empty_evidence_hold (test_rc25.RC25Tests.test_invalid_empty_evidence_hold) ... ok
+test_missing_handback_is_hold (test_rc25.RC25Tests.test_missing_handback_is_hold) ... ok
+test_missing_restoration_is_hold (test_rc25.RC25Tests.test_missing_restoration_is_hold) ... ok
+test_mixed_session_denied (test_rc25.RC25Tests.test_mixed_session_denied) ... ok
+test_no_live_cli (test_rc25.RC25Tests.test_no_live_cli) ... RC25_READONLY_AUDIT_ASSESSOR: NO LIVE CLI; MODBUS_WRITES=0
+ok
+test_real_transport_rejected_pre_side_effects (test_rc25.RC25Tests.test_real_transport_rejected_pre_side_effects) ... ok
+test_simulated_pilot_allowed (test_rc25.RC25Tests.test_simulated_pilot_allowed) ... ok
+test_simulated_success_not_power_proof (test_rc25.RC25Tests.test_simulated_success_not_power_proof) ... ok
+test_tampered_soc_denied (test_rc25.RC25Tests.test_tampered_soc_denied) ... ok
+test_truthy_string_not_simulator (test_rc25.RC25Tests.test_truthy_string_not_simulator) ... ok
+test_untagged_plant_rejected (test_rc25.RC25Tests.test_untagged_plant_rejected) ... ok
+test_capture_integrates_real_signed_port_units (test_rc26.Tests.test_capture_integrates_real_signed_port_units) ... ok
+test_capture_no_modbus_writes (test_rc26.Tests.test_capture_no_modbus_writes) ... ok
+test_invalid_power_fails (test_rc26.Tests.test_invalid_power_fails) ... ok
+test_stale_trace_hold (test_rc26.Tests.test_stale_trace_hold) ... ok
+test_wrong_schema (test_rc26.Tests.test_wrong_schema) ... ok
+test_action_allowlist (test_rc27.TestRC27.test_action_allowlist) ... ok
+test_check_invalid_action (test_rc27.TestRC27.test_check_invalid_action) ... ok
+test_consent_exact (test_rc27.TestRC27.test_consent_exact) ... LIVE PLANT TEST. The existing commissioned controller may issue 500W charge or 650W export commands.
+Thor/network loss during a pulse may prevent automatic handback. Monitor MySigen and retain manual plant control.
+Type exactly: AUTHORISE GRID_CHARGE 30 SECONDS
+LIVE PLANT TEST. The existing commissioned controller may issue 500W charge or 650W export commands.
+Thor/network loss during a pulse may prevent automatic handback. Monitor MySigen and retain manual plant control.
+Type exactly: AUTHORISE EXPORT 30 SECONDS
+ok
+test_consent_no_tty (test_rc27.TestRC27.test_consent_no_tty) ... ok
+test_execution_aborts_on_qual_change_before_latch (test_rc27.TestRC27.test_execution_aborts_on_qual_change_before_latch) ... ok
+test_observation_bad (test_rc27.TestRC27.test_observation_bad) ... ok
+test_observation_record (test_rc27.TestRC27.test_observation_record) ... ok
+test_readonly_no_approval (test_rc27.TestRC27.test_readonly_no_approval) ... ok
+test_child_error_retains_latch (test_rc27.TestRC27Transaction.test_child_error_retains_latch) ... ok
+test_success_clears_latch_only_after_proof (test_rc27.TestRC27Transaction.test_success_clears_latch_only_after_proof) ... ok
+test_active_phase_avoids_handback_during_live_pulse (test_rc28.RC28.test_active_phase_avoids_handback_during_live_pulse) ... ok
+test_charge_soc_guard (test_rc28.RC28.test_charge_soc_guard) ... ok
+test_dispatch_authority_rejected (test_rc28.RC28.test_dispatch_authority_rejected) ... ok
+test_existing_rc13_qualify_default_unchanged (test_rc28.RC28.test_existing_rc13_qualify_default_unchanged) ... ok
+test_export_soc_guard (test_rc28.RC28.test_export_soc_guard) ... ok
+test_manual_charge_no_rc13_required (test_rc28.RC28.test_manual_charge_no_rc13_required) ... ok
+test_manual_export (test_rc28.RC28.test_manual_export) ... ok
+test_no_40034 (test_rc28.RC28.test_no_40034) ... ok
+test_no_direct_dispatch_without_approval (test_rc28.RC28.test_no_direct_dispatch_without_approval) ... ok
+test_plant_not_handed_back (test_rc28.RC28.test_plant_not_handed_back) ... ok
+test_remote_ems_authority_rejected (test_rc28.RC28.test_remote_ems_authority_rejected) ... ok
+test_reserve_rejected (test_rc28.RC28.test_reserve_rejected) ... ok
+test_expired_review_blocks (test_rc29.TestClosure.test_expired_review_blocks) ... ok
+test_full_operator_witnessed_closure (test_rc29.TestClosure.test_full_operator_witnessed_closure) ... RC29 LATCH CLOSURE. No plant writes are made by this tool.
+Evidence: DEGRADED_ACCEPTABLE invalid: [{"error": "SampleError: invalid power sample: home_kw:implausible", "phase": "AFTER", "timestamp_utc": "2026-11-04T18:49:00+00:00"}]
+Confirm in MySigen NOW: Remote EMS off, self-consumption, no active charge/export.
+Type exactly: CLEAR RECOVERY LATCH 8d39f77fc0e2
+ok
+test_ineligible_review_blocks (test_rc29.TestClosure.test_ineligible_review_blocks) ... ok
+test_latch_replaced_blocks (test_rc29.TestClosure.test_latch_replaced_blocks) ... ok
+test_no_modbus_import (test_rc29.TestClosure.test_no_modbus_import) ... ok
+test_no_review_blocks (test_rc29.TestClosure.test_no_review_blocks) ... ok
+test_no_tty_or_ack_blocks (test_rc29.TestClosure.test_no_tty_or_ack_blocks) ... ok
+test_plant_regressed_at_closure_blocks (test_rc29.TestClosure.test_plant_regressed_at_closure_blocks) ... RC29 LATCH CLOSURE. No plant writes are made by this tool.
+Evidence: DEGRADED_ACCEPTABLE invalid: [{"error": "SampleError: invalid power sample: home_kw:implausible", "phase": "AFTER", "timestamp_utc": "2026-11-04T18:49:00+00:00"}]
+Confirm in MySigen NOW: Remote EMS off, self-consumption, no active charge/export.
+Type exactly: CLEAR RECOVERY LATCH 8d39f77fc0e2
+ok
+test_symlink_latch_rejected (test_rc29.TestClosure.test_symlink_latch_rejected) ... ok
+test_trace_tamper_blocks (test_rc29.TestClosure.test_trace_tamper_blocks) ... ok
+test_wrong_challenge_blocks (test_rc29.TestClosure.test_wrong_challenge_blocks) ... RC29 LATCH CLOSURE. No plant writes are made by this tool.
+Evidence: DEGRADED_ACCEPTABLE invalid: [{"error": "SampleError: invalid power sample: home_kw:implausible", "phase": "AFTER", "timestamp_utc": "2026-11-04T18:49:00+00:00"}]
+Confirm in MySigen NOW: Remote EMS off, self-consumption, no active charge/export.
+Type exactly: CLEAR RECOVERY LATCH 8d39f77fc0e2
+ok
+test_comm_error_not_allowlisted (test_rc29.TestEvidence.test_comm_error_not_allowlisted) ... ok
+test_coverage (test_rc29.TestEvidence.test_coverage) ... ok
+test_critical_event (test_rc29.TestEvidence.test_critical_event) ... ok
+test_handback_unverified_rejected (test_rc29.TestEvidence.test_handback_unverified_rejected) ... ok
+test_incident_shape_is_degraded_acceptable (test_rc29.TestEvidence.test_incident_shape_is_degraded_acceptable) ... ok
+test_invalid_during_actuation_rejected (test_rc29.TestEvidence.test_invalid_during_actuation_rejected) ... ok
+test_missing_result (test_rc29.TestEvidence.test_missing_result) ... ok
+test_mixed_flags_not_allowlisted (test_rc29.TestEvidence.test_mixed_flags_not_allowlisted) ... ok
+test_nonzero_exit_rejected (test_rc29.TestEvidence.test_nonzero_exit_rejected) ... ok
+test_panel_rejected (test_rc29.TestEvidence.test_panel_rejected) ... ok
+test_session_mismatch (test_rc29.TestEvidence.test_session_mismatch) ... ok
+test_timeout_rejected (test_rc29.TestEvidence.test_timeout_rejected) ... ok
+test_too_many_invalid (test_rc29.TestEvidence.test_too_many_invalid) ... ok
+test_any_readback_not_handed_back_blocks (test_rc29.TestPlantRecovery.test_any_readback_not_handed_back_blocks) ... ok
+test_lock_held_blocks (test_rc29.TestPlantRecovery.test_lock_held_blocks) ... ok
+test_panel_inactive_blocks (test_rc29.TestPlantRecovery.test_panel_inactive_blocks) ... ok
+test_preflight_exception_propagates (test_rc29.TestPlantRecovery.test_preflight_exception_propagates) ... ok
+test_clean_still_auto_clears (test_rc29.TestRC27Separation.test_clean_still_auto_clears) ... ok
+test_handback_failure_still_recovery_required (test_rc29.TestRC27Separation.test_handback_failure_still_recovery_required) ... ok
+test_incident_now_distinct_status_latch_retained (test_rc29.TestRC27Separation.test_incident_now_distinct_status_latch_retained) ... ok
+test_busy_controller_lock_blocks_before_any_readback (test_rc29b.TestLock.test_busy_controller_lock_blocks_before_any_readback) ... ok
+test_lock_held_during_readbacks_record_and_latch_removal (test_rc29b.TestLock.test_lock_held_during_readbacks_record_and_latch_removal) ... RC29 LATCH CLOSURE. No plant writes are made by this tool.
+Evidence: DEGRADED_ACCEPTABLE invalid: [{"error": "SampleError: invalid power sample: home_kw:implausible", "phase": "AFTER", "timestamp_utc": "2026-11-04T18:49:00+00:00"}]
+Confirm in MySigen NOW: Remote EMS off, self-consumption, no active charge/export.
+Type exactly: CLEAR RECOVERY LATCH 8d39f77fc0e2
+ok
+test_lock_held_while_operator_challenge_pending (test_rc29b.TestLock.test_lock_held_while_operator_challenge_pending) ... RC29 LATCH CLOSURE. No plant writes are made by this tool.
+Evidence: DEGRADED_ACCEPTABLE invalid: [{"error": "SampleError: invalid power sample: home_kw:implausible", "phase": "AFTER", "timestamp_utc": "2026-11-04T18:49:00+00:00"}]
+Confirm in MySigen NOW: Remote EMS off, self-consumption, no active charge/export.
+Type exactly: CLEAR RECOVERY LATCH 8d39f77fc0e2
+ok
+test_lock_released_after_failed_closure (test_rc29b.TestLock.test_lock_released_after_failed_closure) ... RC29 LATCH CLOSURE. No plant writes are made by this tool.
+Evidence: DEGRADED_ACCEPTABLE invalid: [{"error": "SampleError: invalid power sample: home_kw:implausible", "phase": "AFTER", "timestamp_utc": "2026-11-04T18:49:00+00:00"}]
+Confirm in MySigen NOW: Remote EMS off, self-consumption, no active charge/export.
+Type exactly: CLEAR RECOVERY LATCH 8d39f77fc0e2
+ok
+test_symlink_lock_rejected (test_rc29b.TestLock.test_symlink_lock_rejected) ... ok
+test_real_writer_trace_passes_review (test_rc29b.TestRealRC27TraceCompatibility.test_real_writer_trace_passes_review) ... ok
+test_action_mismatch (test_rc29b.TestSequence.test_action_mismatch) ... ok
+test_armed_not_first (test_rc29b.TestSequence.test_armed_not_first) ... ok
+test_critical_event_with_session_still_rejected (test_rc29b.TestSequence.test_critical_event_with_session_still_rejected) ... ok
+test_delegate_exit_none_timeout_shape (test_rc29b.TestSequence.test_delegate_exit_none_timeout_shape) ... ok
+test_delegate_exit_nonzero_contradicts_result (test_rc29b.TestSequence.test_delegate_exit_nonzero_contradicts_result) ... ok
+test_each_required_event_duplicated (test_rc29b.TestSequence.test_each_required_event_duplicated) ... ok
+test_each_required_event_missing (test_rc29b.TestSequence.test_each_required_event_missing) ... ok
+test_event_session_mismatch (test_rc29b.TestSequence.test_event_session_mismatch) ... ok
+test_incident_sequence_accepted (test_rc29b.TestSequence.test_incident_sequence_accepted) ... ok
+test_out_of_order_swap (test_rc29b.TestSequence.test_out_of_order_swap) ... ok
+test_post_handback_after_result (test_rc29b.TestSequence.test_post_handback_after_result) ... ok
+test_post_handback_panel_false_contradicts_result (test_rc29b.TestSequence.test_post_handback_panel_false_contradicts_result) ... ok
+test_post_handback_plant_false_contradicts_result (test_rc29b.TestSequence.test_post_handback_plant_false_contradicts_result) ... ok
+test_result_exit_nonzero_contradicts_event (test_rc29b.TestSequence.test_result_exit_nonzero_contradicts_event) ... ok
+test_result_handback_false_contradicts_event (test_rc29b.TestSequence.test_result_handback_false_contradicts_event) ... ok
+test_unattributed_or_unexpected_event (test_rc29b.TestSequence.test_unattributed_or_unexpected_event) ... ok
+test_abort_qualify (test_rc3.Tests.test_abort_qualify) ... ok
+test_abort_telemetry (test_rc3.Tests.test_abort_telemetry) ... ok
+test_action_mismatch (test_rc3.Tests.test_action_mismatch) ... ok
+test_bad_slot (test_rc3.Tests.test_bad_slot) ... ok
+test_charge_soc (test_rc3.Tests.test_charge_soc) ... ok
+test_completes (test_rc3.Tests.test_completes) ... ok
+test_duration_cap (test_rc3.Tests.test_duration_cap) ... ok
+test_fail_handback (test_rc3.Tests.test_fail_handback) ... ok
+test_incapable_remaining (test_rc3.Tests.test_incapable_remaining) ... ok
+test_no_40034_write (test_rc3.Tests.test_no_40034_write) ... ok
+test_no_grid_side_claim (test_rc3.Tests.test_no_grid_side_claim) ... ok
+test_no_live_actuator_imports (test_rc3.Tests.test_no_live_actuator_imports) ... ok
+test_reserve (test_rc3.Tests.test_reserve) ... ok
+test_single_start (test_rc3.Tests.test_single_start) ... ok
+test_wall_clock_jump (test_rc3.Tests.test_wall_clock_jump) ... ok
+test_zero_writes (test_rc3.Tests.test_zero_writes) ... ok
+test_expired (test_rc4.CommitmentTests.test_expired) ... ok
+test_full_slot_charge_capacity (test_rc4.CommitmentTests.test_full_slot_charge_capacity) ... ok
+test_full_slot_export_capacity (test_rc4.CommitmentTests.test_full_slot_export_capacity) ... ok
+test_infeasible_outstanding (test_rc4.CommitmentTests.test_infeasible_outstanding) ... ok
+test_negative_meter (test_rc4.CommitmentTests.test_negative_meter) ... ok
+test_no_meter_not_authorised (test_rc4.CommitmentTests.test_no_meter_not_authorised) ... ok
+test_oversized_charge (test_rc4.CommitmentTests.test_oversized_charge) ... ok
+test_oversized_export (test_rc4.CommitmentTests.test_oversized_export) ... ok
+test_preflight_hold (test_rc4.CommitmentTests.test_preflight_hold) ... ok
+test_remaining_capacity_not_full_energy (test_rc4.CommitmentTests.test_remaining_capacity_not_full_energy) ... ok
+test_bad_telemetry_aborts (test_rc5.RC5Tests.test_bad_telemetry_aborts) ... ok
+test_changed_snapshot_aborts_and_handback (test_rc5.RC5Tests.test_changed_snapshot_aborts_and_handback) ... ok
+test_cli_block (test_rc5.RC5Tests.test_cli_block) ... BLOCKED: RC5 production full-slot actuation not commissioned; MODBUS_WRITES=0
+ok
+test_clock_jump (test_rc5.RC5Tests.test_clock_jump) ... ok
+test_compiled_source_no_live_bridge (test_rc5.RC5Tests.test_compiled_source_no_live_bridge) ... ok
+test_complete (test_rc5.RC5Tests.test_complete) ... ok
+test_expired (test_rc5.RC5Tests.test_expired) ... ok
+test_export_reserve (test_rc5.RC5Tests.test_export_reserve) ... ok
+test_handback_unverified (test_rc5.RC5Tests.test_handback_unverified) ... ok
+test_invalid_plan (test_rc5.RC5Tests.test_invalid_plan) ... ok
+test_real_adapter_rejected (test_rc5.RC5Tests.test_real_adapter_rejected) ... ok
+test_soc_ceiling (test_rc5.RC5Tests.test_soc_ceiling) ... ok
+test_source_fingerprint_stable (test_rc5.RC5Tests.test_source_fingerprint_stable) ... ok
+test_append_only (test_rc6.RC6Tests.test_append_only) ... ok
+test_bad_soc (test_rc6.RC6Tests.test_bad_soc) ... ok
+test_future_rejected (test_rc6.RC6Tests.test_future_rejected) ... ok
+test_invalid_flag (test_rc6.RC6Tests.test_invalid_flag) ... ok
+test_live_entry_blocked (test_rc6.RC6Tests.test_live_entry_blocked) ... BLOCKED: RC6 has no production full-slot actuator; MODBUS_WRITES=0
+ok
+test_nan_rejected (test_rc6.RC6Tests.test_nan_rejected) ... ok
+test_no_network_actuator (test_rc6.RC6Tests.test_no_network_actuator) ... ok
+test_stale_rejected (test_rc6.RC6Tests.test_stale_rejected) ... ok
+test_symlink_rejected (test_rc6.RC6Tests.test_symlink_rejected) ... ok
+test_timezone_required (test_rc6.RC6Tests.test_timezone_required) ... ok
+test_valid_battery_port (test_rc6.RC6Tests.test_valid_battery_port) ... ok
+test_boundary_not_interpolated (test_rc7.EvidenceTests.test_boundary_not_interpolated) ... ok
+test_dense_export (test_rc7.EvidenceTests.test_dense_export) ... ok
+test_duplicate (test_rc7.EvidenceTests.test_duplicate) ... ok
+test_gap (test_rc7.EvidenceTests.test_gap) ... ok
+test_invalid (test_rc7.EvidenceTests.test_invalid) ... ok
+test_naive_time (test_rc7.EvidenceTests.test_naive_time) ... ok
+test_no_allocation_claim (test_rc7.EvidenceTests.test_no_allocation_claim) ... ok
+test_no_modbus (test_rc7.EvidenceTests.test_no_modbus) ... ok
+test_sqlite_read_only (test_rc7.EvidenceTests.test_sqlite_read_only) ... ok
+test_symlink_denied (test_rc7.EvidenceTests.test_symlink_denied) ... ok
+test_wrong_direction (test_rc7.EvidenceTests.test_wrong_direction) ... ok
+test_zero_actual_samples (test_rc7.EvidenceTests.test_zero_actual_samples) ... ok
+test_append_only (test_rc8.Tests.test_append_only) ... ok
+test_bad_fc (test_rc8.Tests.test_bad_fc) ... ok
+test_bad_unit (test_rc8.Tests.test_bad_unit) ... ok
+test_bounded (test_rc8.Tests.test_bounded) ... ok
+test_declares_soc_only (test_rc8.Tests.test_declares_soc_only) ... ok
+test_decode (test_rc8.Tests.test_decode) ... ok
+test_no_slot (test_rc8.Tests.test_no_slot) ... BLOCKED: SOC acquisition cannot actuate; MODBUS_WRITES=0
+ok
+test_no_write_functions (test_rc8.Tests.test_no_write_functions) ... ok
+test_out_of_range (test_rc8.Tests.test_out_of_range) ... ok
+test_read_request (test_rc8.Tests.test_read_request) ... ok
+test_short_response (test_rc8.Tests.test_short_response) ... ok
+test_symlink (test_rc8.Tests.test_symlink) ... ok
+test_actuation_block (test_rc9.PowerTests.test_actuation_block) ... BLOCKED: RC9 cannot actuate; MODBUS_WRITES=0
+ok
+test_bad_bounds (test_rc9.PowerTests.test_bad_bounds) ... ok
+test_bounded_and_append_only (test_rc9.PowerTests.test_bounded_and_append_only) ... ok
+test_decode_commissioned_indices (test_rc9.PowerTests.test_decode_commissioned_indices) ... ok
+test_invalid_read_recorded (test_rc9.PowerTests.test_invalid_read_recorded) ... ok
+test_invalid_sample (test_rc9.PowerTests.test_invalid_sample) ... ok
+test_no_network_write_api (test_rc9.PowerTests.test_no_network_write_api) ... ok
+test_nonfinite_rejected (test_rc9.PowerTests.test_nonfinite_rejected) ... ok
+test_original_decoder_unchanged (test_rc9.PowerTests.test_original_decoder_unchanged) ... ok
+test_sample_uses_30005_and_fc04 (test_rc9.PowerTests.test_sample_uses_30005_and_fc04) ... ok
+test_symlink (test_rc9.PowerTests.test_symlink) ... ok
+
+----------------------------------------------------------------------
+Ran 394 tests in 1.393s
+
+OK
